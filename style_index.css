@@ -1,0 +1,51 @@
+body {
+	width: 800px;
+	margin: auto;
+	text-align: center;
+	font-family: "verdana";
+	background: beige;
+}
+
+h1 {
+	margin: 40px;
+}
+
+#parkingList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+button {
+	margin: 7px;
+	padding: 25px;
+	border: solid 1px #999999;
+	border-radius: 5px;
+	font-size: x-large;
+}
+
+#divParkingName {
+	width: 35%;
+	padding: 25px 0;
+	border: solid 2px goldenrod;
+	border-radius: 10px;
+}
+
+#divParkingFreeSpots, #divLocalisationParking {
+	width: 20%;
+	padding: 25px 0;
+	border: solid 2px goldenrod;
+	border-radius: 10px;
+}
+
+
+
+#response {
+	height: 85px;
+	font-size: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 40px 0;
+}
